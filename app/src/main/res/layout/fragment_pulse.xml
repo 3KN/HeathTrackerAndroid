@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="tracker.health.buzzapps.ua.heathtracker.Fragment.PulseFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+    <com.hookedonplay.decoviewlib.DecoView
+        android:layout_width="match_parent"
+        android:id="@+id/dynamicArcView"
+        android:layout_marginLeft="10dp"
+        custom:dv_arc_gravity_vertical="Top"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:text="85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:textColor="@color/primary_dark"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pulse_count" />
+
+    <ImageView
+        android:id="@+id/pulse_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pulse"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/pulse_count"
+        android:layout_toEndOf="@+id/pulse_count"
+        android:layout_marginLeft="5dp"/>
+
+        <Switch
+            android:text="Track Pulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/switchPulse" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

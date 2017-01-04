@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "862192705108",
+    "firebase_url": "https://health-tracker-13b8e.firebaseio.com",
+    "project_id": "health-tracker-13b8e",
+    "storage_bucket": "health-tracker-13b8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862192705108:android:d547b80ea0b0c938",
+        "android_client_info": {
+          "package_name": "tracker.health.buzzapps.ua.heathtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862192705108-vn1t173ed83qn6oobtfd5eog7gmm3avb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tracker.health.buzzapps.ua.heathtracker",
+            "certificate_hash": "502E70EA5C3825CAD09C9CF7E1C67FAB92BE5631"
+          }
+        },
+        {
+          "client_id": "862192705108-sksfmg51ancomqe9msstdl1qcmu97vp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPAX_66X_DgGwGkvtctCm5WgEfu6-Y9TM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862192705108-sksfmg51ancomqe9msstdl1qcmu97vp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
